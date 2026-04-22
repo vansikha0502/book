@@ -15,4 +15,4 @@ if st.button("PREDICT SCORE"):
     predicted_score = model.predict([[hours]])[0]
     st.success(f"predicted score: {predicted_score:.2f}")
     st.write("###sample training data")
-    st.detaframe(df)
+    st.dataframe(df)
